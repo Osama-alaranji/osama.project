@@ -1,5 +1,16 @@
 body {
 
-    text-align: center;
-    color: red ; 
 }
+.projectbtn {
+display: inline-block;
+    width: 140px;
+    height: 30px;
+    text-decoration: none ;
+    background-color: grey;
+    text-align: center;
+    border: none ;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
