@@ -19,3 +19,10 @@ header {
     height: 50px;
 }
 
+.headerimg 
+{
+
+    width: 100%;
+position: relative;
+ top : -500px
+}
