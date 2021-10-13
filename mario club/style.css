@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+header {
+
+    background-color: red;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+
+}
+
+
+.first {
+    text-align: center;
+    color: white;
+
+    font-size: 50px;
+    border: 7px white solid;
+    border-radius: 46px;
+    display: inline;
+    position: relative;
+    left: 40%;
+    top: 25px;
+    padding: 9px;
+}
+
+.fimg {
+    position: relative;
+    width: 100%;
+    top: 120px;
+    margin-bottom: 100px;
+
+}
+
+.welcome {
+    position: absolute;
+    background-color: rgb(255, 192, 110);
+    color: white;
+    width: 400px;
+    height: 200px;
+    bottom: 300px;
+    top: 250px;
+
+    font-size: 33px;
+}
+
+
+
+nav {   position: sticky;
+    background-color: gray;
+top: 120px}
+nav ul  {  display: block;
+   text-align: center;
+    position: relative;
+   
+  
+}
+
+nav ul li  {    display: inline;
+margin: 70px
+;
+
+color : black
+
+
+}
+nav ul a { text-decoration: none;
+font-size: 30px ;
+
+
+}
+.join {
+
+    color: red
+}
+nav ul a:hover {
+
+text-decoration: underline;
+
+
+}
+.it {
+    color: red;
+}
+.oo {
+
+margin-left: 25px;
+    position: relative;
+    font-size: 25px;
+}
+
+
+.imgs {
+    text-align: center;
+
+}
+.forbold::first-line {font-weight: bold;
+
+
+
+}
+.forform {
+
+
+    text-align: center;
+}
+.email {
+    width: 250px; 
+    height: 35px;
+    border: none;
+    outline: none;
+
+}
+.email::placeholder{
+    font-size: large;
+    padding-left: 10px;
+
+}
+
+.email:focus {
+        width: 250px; 
+        height: 35px;
+        border: 1px black dashed;
+        border-radius: 20px;
+      }
+      .email:valid {
+        width: 250px; 
+        height: 35px;
+          border-radius: 20px ;
+          border : 1px green solid;
+      }
+      .email:invalid {
+        width: 250px; 
+        height: 35px;
+          border-radius: 20px ;
+          border : 1px rgb(223, 23, 23) solid;
+
+      }
+      footer {
+
+        background-color: red;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+
+      }
+    .imgs  ul {text-align: center;
+
+
+    }
+    .imgs ul li {
+
+        display: inline-block;
+    }
+    .imgs ul li .limg  { width: 500px;
+        margin :50px;
+
+
+    }
+    .imgs ul li .limg:hover  { width: 500px;
+        margin :50px;
+        position: relative;
+        top :-5px;
+
+
+    }
+    @media (max-width :720px){
+        nav ul  {  display: block;
+            text-align: center;
+             position: relative;
+            bottom:  100px;
+          
+         }
+         nav { 
+             position: relative;
+             background-color: white;
+
+         }
+        nav ul li  {    display: block;
+           
+            ;
+            
+            color : black;
+            margin: 22spx
+            
+            }
+        
+        .fimg {
+            position: relative;
+            width: 100%;
+            top: 70px;
+            margin-bottom: 100px;
+        
+        }
+       .h1welcome{
+           font-size: 28px;
+       }
+        .welcome {
+            position: absolute;
+            background-color: rgb(255, 192, 110);
+            color: white;
+            width: 100%;
+            height: 50px;
+            bottom: 300px;
+            top: 320px;
+        
+            font-size: 33px;}
+            .first {
+                text-align: center;
+                color: white;
+            
+                font-size: 40px;
+                border: 7px white solid;
+                border-radius: 46px;
+                display: inline;
+                position: relative;
+                left: 33%;
+                top: 25px;
+                padding: 9px;
+            }
+            header {
+
+                background-color: red;
+                width: 100%;
+                height: 90px;
+                position: fixed;
+                z-index: 10;
+            
+            }
+            nav ul a { text-decoration: none;
+                font-size: 20px ;
+                
+                
+                }
+    }
