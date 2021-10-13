@@ -7,6 +7,7 @@ width: 25%;
     border: none;
     border-bottom: white 1px solid;
     background-color:transparent;
+    color: white;
 }
 .inputtask::placeholder {
     font-size: large;
@@ -21,6 +22,7 @@ width: 25%;
     color: white;
     border : white 1px solid;
     margin-left: 15px;
+   
 }
 .inputsub:hover {
     width: 100px;
@@ -32,4 +34,9 @@ width: 25%;
     margin-left: 15px;
     box-shadow: rgba(255, 255, 255, 0.247);
     margin-bottom: 5px;
+}
+p {
+    color: green;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
