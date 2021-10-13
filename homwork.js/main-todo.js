@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded" , function(){
     document.querySelector("form").onsubmit = function(){
 let task = document.querySelector("#task").value ;
 let addtask = document.createElement("li")  ;
-let add = document.querySelector("ul").appendChild(addtask)  + task ;
+addtask.innerHTML = task;
+let add = document.querySelector("ul").appendChild(addtask) ;
 
 
 return false;
