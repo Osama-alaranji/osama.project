@@ -13,4 +13,9 @@ display: inline-block;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+footer {
+
+    width: 100%;
+    height: 50px;
+}
 
