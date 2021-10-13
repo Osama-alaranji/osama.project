@@ -10,10 +10,11 @@
 //     }   )
 
 document.addEventListener("DOMContentLoaded" , function(){
-let task = document.querySelector("task").value ;
-console.log("task")
+let task = document.querySelector("#task").value ;
+let addtask = document.createElement("li");
+document.body.appendChild(task + addtask);
 
-
+return false;
 
 
 })
