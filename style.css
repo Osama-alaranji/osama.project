@@ -1,18 +1,66 @@
 body {
 
 }
-.projectbtn {
+.facebookbtn {
 display: inline-block;
     width: 140px;
     height: 30px;
     text-decoration: none ;
-    background-color: grey;
+    background-color: rgb(42, 56, 240);
     text-align: center;
     border: none ;
     border-radius: 10px;
-    color: black;
+    color: rgb(61, 60, 60);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.phpbtn {
+    display: inline-block;
+        width: 140px;
+        height: 30px;
+        text-decoration: none ;
+        background-color: rgb(65, 1, 65);
+        text-align: center;
+        border: none ;
+        border-radius: 10px;
+        color: rgb(66, 64, 64);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .mariobtn {
+        display: inline-block;
+            width: 140px;
+            height: 30px;
+            text-decoration: none ;
+            background-color: rgb(255, 0, 0);
+            text-align: center;
+            border: none ;
+            border-radius: 10px;
+            color: rgb(53, 50, 50);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .tablebtn {
+            display: inline-block;
+                width: 140px;
+                height: 30px;
+                text-decoration: none ;
+                background-color: rgb(255, 118, 141);
+                text-align: center;
+                border: none ;
+                border-radius: 10px;
+                color: rgb(117, 117, 117);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .jsbtn {
+                display: inline-block;
+                    width: 140px;
+                    height: 30px;
+                    text-decoration: none ;
+                    background-color: rgb(255, 255, 73);
+                    text-align: center;
+                    border: none ;
+                    border-radius: 10px;
+                    color: rgb(97, 91, 91);
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
 header {
 
     width: 100%;
