@@ -10,12 +10,14 @@
 //     }   )
 
 document.addEventListener("DOMContentLoaded" , function(){
+    document.querySelector("form").onsubmit = function(){
 let task = document.querySelector("#task").value ;
-let addtask = document.createElement("li");
-document.body.appendChild(task + addtask);
+let addtask = document.createElement("li")  ;
+let add = document.querySelector("ul").appendChild(addtask)  + task ;
+
 
 return false;
 
-
+}
 })
 
