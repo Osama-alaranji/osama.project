@@ -12,12 +12,14 @@
 document.addEventListener("DOMContentLoaded" , function(){
     let nmrtasks = 0 ;
     document.querySelector("form").onsubmit = function(){
-let task = document.querySelector("#task").value ;
+let task = document.querySelector("#task") ;
 let addtask = document.createElement("li")  ;
-addtask.innerHTML = task; 
+addtask.innerHTML = task.value; 
 let add = document.querySelector("ul").appendChild(addtask) ;
 let par = document.querySelector("p");
 par.innerHTML = ++nmrtasks + " "  + "tasks have been added";
+  task.value = null ;
+
 
 
 
