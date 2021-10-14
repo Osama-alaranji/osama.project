@@ -4,11 +4,20 @@ body {}
 
 
 .weight , .height   {
+    margin: 15px;
+    border: none;
+    background : transparent;
+    border-bottom: white 1px solid;
+    width : 25%; 
+    height: 25px;
 
 }
 .weight , .height::placeholder   {
+    font-size: large;
+    color : white;
+    margin-left: 5px;
 
 }
 .sub {
-
+margin: 15px ;
 }
