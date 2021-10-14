@@ -11,6 +11,9 @@
 
 document.addEventListener("DOMContentLoaded" , function(){
     let nmrtasks = 0 ;
+    let subbtn = document.querySelector("#subbtn");
+subbtn.disabled = true ;
+
     document.querySelector("form").onsubmit = function(){
 let task = document.querySelector("#task") ;
 let addtask = document.createElement("li")  ;
@@ -19,7 +22,7 @@ let add = document.querySelector("ul").append(addtask) ;
 let par = document.querySelector("p");
 par.innerHTML = ++nmrtasks + " "  + "tasks have been added";
   task.value = null ;
-  
+
 
 
 
