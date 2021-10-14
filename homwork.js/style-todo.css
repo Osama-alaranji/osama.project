@@ -41,3 +41,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: white 2px ;
 }
+.notask {
+    color :red;
+    
+}
