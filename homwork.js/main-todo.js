@@ -15,10 +15,11 @@ document.addEventListener("DOMContentLoaded" , function(){
 let task = document.querySelector("#task") ;
 let addtask = document.createElement("li")  ;
 addtask.innerHTML = task.value; 
-let add = document.querySelector("ul").appendChild(addtask) ;
+let add = document.querySelector("ul").append(addtask) ;
 let par = document.querySelector("p");
 par.innerHTML = ++nmrtasks + " "  + "tasks have been added";
   task.value = null ;
+  
 
 
 
