@@ -22,6 +22,7 @@ par.innerHTML = ++nmrtasks + " "  + "tasks have been added";
 
 
 
+
 return false;
 
 }
