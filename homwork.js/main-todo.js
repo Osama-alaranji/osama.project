@@ -12,17 +12,28 @@
 document.addEventListener("DOMContentLoaded" , function(){
     let nmrtasks = 0 ;
     let subbtn = document.querySelector("#subbtn");
-subbtn.disabled = true ;
+    let task = document.querySelector("#task")
+    subbtn.disabled = true ;
+    task.onkeyup = () => {
+if (task.value.length > 0){
+    subbtn.disabled = false ;
+    
+}
+else{
+    document.querySelector("#notask").innerHTML = "<b>please write a task to add</b>"
+}
 
+
+}
     document.querySelector("form").onsubmit = function(){
-let task = document.querySelector("#task") ;
+ ;
 let addtask = document.createElement("li")  ;
 addtask.innerHTML = task.value; 
 let add = document.querySelector("ul").append(addtask) ;
 let par = document.querySelector("p");
 par.innerHTML = ++nmrtasks + " "  + "tasks have been added";
   task.value = null ;
-
+subbtn.disabled = true ; 
 
 
 
