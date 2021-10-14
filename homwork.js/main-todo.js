@@ -17,7 +17,8 @@ let addtask = document.createElement("li")  ;
 addtask.innerHTML = task; 
 let add = document.querySelector("ul").appendChild(addtask) ;
 let par = document.querySelector("p");
-par.innerHTML = nmrtasks++ + "has been added";
+par.innerHTML = ++nmrtasks + " "  + "tasks have been added";
+
 
 
 
