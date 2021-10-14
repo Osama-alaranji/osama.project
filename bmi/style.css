@@ -1,4 +1,8 @@
-body {}
+body {
+
+    background-image: url(bg.jpg) ;
+  background-size: 100%;
+}
 
 
 
@@ -8,11 +12,18 @@ body {}
     border: none;
     background : transparent;
     border-bottom: white 1px solid;
-    width : 25%; 
+    width : 27%; 
     height: 25px;
+    color: white;
 
 }
-.weight , .height::placeholder   {
+.height::placeholder   {
+    font-size: large;
+    color : white;
+    margin-left: 5px;
+
+}
+.weight::placeholder   {
     font-size: large;
     color : white;
     margin-left: 5px;
