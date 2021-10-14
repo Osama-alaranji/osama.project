@@ -2,13 +2,14 @@ body {
 
     background-image: url(bg.jpg) ;
   background-size: 100%;
+  color: white;
 }
 
 
 
 
 .weight , .height   {
-    margin: 15px;
+    margin: 25px;
     border: none;
     background : transparent;
     border-bottom: white 1px solid;
@@ -19,16 +20,16 @@ body {
 }
 .height::placeholder   {
     font-size: large;
-    color : white;
+    color : rgb(92, 89, 89);
     margin-left: 5px;
 
 }
 .weight::placeholder   {
     font-size: large;
-    color : white;
+    color : rgb(92, 90, 90);
     margin-left: 5px;
 
 }
 .sub {
-margin: 15px ;
+margin: 25px ;
 }
