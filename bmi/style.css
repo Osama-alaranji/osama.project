@@ -10,7 +10,7 @@ h1 , h2 {
 }
 
 
-.weight , .height   {
+.weight , .height , .name   {
     margin: 25px;
     border: none;
     background : transparent;
@@ -34,5 +34,13 @@ h1 , h2 {
 }
 .sub {
 margin: 25px ;
+
+}
+
+.name::placeholder {
+    font-size: large;
+    color : rgb(92, 89, 89);
+    margin-left: 5px;
+
 
 }
