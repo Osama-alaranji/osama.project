@@ -5,7 +5,9 @@ body {
   color: white;
 }
 
-
+h1 , h2 {
+    margin-left: 25px;
+}
 
 
 .weight , .height   {
@@ -32,4 +34,5 @@ body {
 }
 .sub {
 margin: 25px ;
+
 }
