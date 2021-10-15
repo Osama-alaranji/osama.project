@@ -23,8 +23,11 @@ form.onsubmit = function(){
     if (bminumb <= 18.5){
         bmi = "Underweight" ;
     }
-    else if(bminumb > 18.5){
+    else if( 24.9 <bminumb > 18.5){
         bmi = "Normal weight"
+    }
+    else if(bminumb > 25){
+        bmi = "Overweight"
     }
     else {
         bmi = "";
