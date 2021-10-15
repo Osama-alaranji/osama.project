@@ -44,3 +44,14 @@ margin: 25px ;
 
 
 }
+.profile {
+
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 30%;
+    height: 500px;
+    position: relative;
+    top: -300px;
+    left: 69%;
+}
