@@ -19,7 +19,8 @@ let bmi = weight.value / mheight * mheight;
 // 4-inner bmi in profile
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
-    pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm";
+    pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm"
+    + "<br><b>bmi :</b> " + bmi ;
 
     return false;
 
