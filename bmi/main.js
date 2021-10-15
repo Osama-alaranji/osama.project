@@ -22,7 +22,7 @@ form.onsubmit = function(){
     let  weightv = weight.value ;
     let  mheight =  heightv / 100;
     let  mheightm = mheight * mheight ;
-    let  bmi = weightv / mheightm;
+    let  bminumb  = weightv / mheightm;
     // bmi ending 
     
     pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
