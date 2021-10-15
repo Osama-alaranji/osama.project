@@ -6,5 +6,10 @@ let pname = document.querySelector("#nameprofile");
 let pcontent = document.querySelector("#content");
 let male = document.querySelector("#male");
 let female = document.querySelector("#female");
+let boldname = document.querySelector("#profilename");
+
+
+
+
 
 
