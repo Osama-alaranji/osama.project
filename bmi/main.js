@@ -21,13 +21,16 @@ form.onsubmit = function(){
     let  mheightm = mheight * mheight ;
     let  bminumb  = weightv / mheightm;
     if (bminumb <= 18.5){
-        bmi = "Underweight" ;
+        bmi = "Underweight";
     }
     else if( 24.9 <bminumb > 18.5){
-        bmi = "Normal weight"
+        bmi = "Normal weight";
     }
-    else if(bminumb > 25){
-        bmi = "Overweight"
+    else if ( 29.9 <bminumb > 25){
+        bmi = "Overweight";
+    }
+    else if( 34.9 <bminumb > 30){
+        bmi = "Obesity 1";
     }
     else {
         bmi = "";
@@ -35,7 +38,7 @@ form.onsubmit = function(){
     
     // bmi ending 
 
-    pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
+    pcontent.innerHTML = "<b>weight : </b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
 + "<br><b>bmi :</b> " + bmi ;
     return false;
 }
