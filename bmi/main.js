@@ -13,6 +13,7 @@ let form = document.querySelector("form");
 
 
 // 1-get name and put him in the profile 
+// 2-get weight and height and put them in profile 
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
     return false;
