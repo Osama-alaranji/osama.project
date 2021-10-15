@@ -11,7 +11,7 @@ let form = document.querySelector("form");
 // 1-get name and put him in the profile 
 // 2-get weight and height and put them in profile 
 // 3-calculate bminumber 
-// 4_show bmi as string in profile by if statement
+// 4_show bmi as string in profile by if statement 
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
     // bmi beginning
@@ -21,8 +21,12 @@ form.onsubmit = function(){
     let  mheightm = mheight * mheight ;
     let  bminumb  = weightv / mheightm;
     if (bminumb < 18.5){
-        bmi = "Underweight"
+        bmi = "Underweight" ;
     }
+    else {
+        bmi = "";
+    }
+    
     // bmi ending 
 
     pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
