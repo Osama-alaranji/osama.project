@@ -1,6 +1,9 @@
-let weight  = document.querySelector("#weight").value ;
-let height = document.querySelector("#height").value ;
+let weight  = document.querySelector("#weight") ;
+let height = document.querySelector("#height") ;
 let subbtn = document.querySelector("#sub") ;
-let name = document.querySelector("#name").value  ;
+let name = document.querySelector("#name") ;
+let pname = document.querySelector("#nameprofile");
+let pcontent = document.querySelector("#content");
+
 
 
