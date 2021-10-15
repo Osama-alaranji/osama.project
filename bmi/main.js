@@ -23,6 +23,9 @@ form.onsubmit = function(){
     let  mheight =  heightv / 100;
     let  mheightm = mheight * mheight ;
     let  bminumb  = weightv / mheightm;
+    if (bminumb < 18.5){
+        bmi = "Underweight"
+    }
     // bmi ending 
     
     pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
