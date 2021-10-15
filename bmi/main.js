@@ -8,7 +8,8 @@ let male = document.querySelector("#male");
 let female = document.querySelector("#female");
 let boldname = document.querySelector("#profilename");
 let form = document.querySelector("form");
-
+let mheight = height.value /100;
+let bmi = weight.value / mheight * mheight;
 
 
 
@@ -17,7 +18,8 @@ let form = document.querySelector("form");
 // 3-calculate bmi 
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
-    pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm"
+    pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm";
+
     return false;
 
 
