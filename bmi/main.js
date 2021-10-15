@@ -4,6 +4,7 @@ let subbtn = document.querySelector("#sub") ;
 let name = document.querySelector("#name") ;
 let pname = document.querySelector("#nameprofile");
 let pcontent = document.querySelector("#content");
-
+let male = document.querySelector("#male");
+let female = document.querySelector("#female");
 
 
