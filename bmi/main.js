@@ -10,6 +10,7 @@ let boldname = document.querySelector("#profilename");
 
 
 
+// 1-get name and put him in the profile 
 
 
 
