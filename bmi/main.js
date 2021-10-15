@@ -13,6 +13,9 @@ let form = document.querySelector("form");
 
 
 // 1-get name and put him in the profile 
-
+form.onsubmit = function(){
+    boldname.innerHTML = "welcome" + name.value ;
+    
+}
 
 
