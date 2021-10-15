@@ -8,9 +8,6 @@ let male = document.querySelector("#male");
 let female = document.querySelector("#female");
 let boldname = document.querySelector("#profilename");
 let form = document.querySelector("form");
-
-
-
 // 1-get name and put him in the profile 
 // 2-get weight and height and put them in profile 
 // 3-calculate bminumber 
@@ -27,13 +24,8 @@ form.onsubmit = function(){
         bmi = "Underweight"
     }
     // bmi ending 
-    
+
     pcontent.innerHTML = "<b>weight :</b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
-    + "<br><b>bmi :</b> " + bmi ;
-
++ "<br><b>bmi :</b> " + bmi ;
     return false;
-
-
 }
-
-
