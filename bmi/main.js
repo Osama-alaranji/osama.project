@@ -14,7 +14,7 @@ let form = document.querySelector("form");
 // 1-get name and put him in the profile 
 // 2-get weight and height and put them in profile 
 // 3-calculate bminumber 
-// 4_
+// 4_show bmi as string in profile by if statement
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
     // bmi beginning
