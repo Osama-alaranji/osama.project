@@ -9,7 +9,8 @@ let female = document.querySelector("#female");
 let boldname = document.querySelector("#profilename");
 let form = document.querySelector("form");
 let profile = document.querySelector("#profile");
-
+let femaleimg = document.querySelector("#femalephoto");
+let maleimg = document.querySelector("#malephoto");
 
 
 
