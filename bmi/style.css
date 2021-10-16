@@ -71,6 +71,7 @@ font-size: large;
     position: relative;
     top: -340px;
     left: 69%;
+    display: none;
 }
 .nameprofile {
     /* paragraph  */
