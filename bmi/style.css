@@ -71,7 +71,7 @@ font-size: large;
     position: relative;
     top: -340px;
     left: 69%;
-    display: none;
+    display: none;   
 }
 .nameprofile {
     /* paragraph  */
@@ -110,20 +110,13 @@ margin: 19px;
 font-size: 20px;
 }
 /* animation */
-.basicanim {
-    width: 400px;
-    height: 500px;
-    position: relative;
-    top : -860px;
-    left: 32%;
-    background-image: url(photo/normal.png);
-}
+
 .adddiv {
     width: 400px;
     height: 500px;
     top : -860px;
     left: 32%;
-    display: none;
+    display: none;  
     position: relative;
     
 
