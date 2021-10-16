@@ -95,8 +95,7 @@ font-size: 20px;
     width: 400px;
     height: 500px;
     position: relative;
-    top : -840px;
+    top : -860px;
     left: 32%;
-    
-
+    background-image: url(photo/normal.png);
 }
