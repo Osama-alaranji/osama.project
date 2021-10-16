@@ -137,18 +137,79 @@ font-size: 20px;
     from {background-image: url(photo/normal.png);}
     to {background-image:  url(photo/under.png);}
 }
+
+
+/* ----------------------- */
 .over {
     width: 100%;
     height: 100%;
     background-image: url(photo/normal.png);
-    animation-name: under ;
+    animation-name: over ;
     animation-duration: 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
     
 }
-@keyframes under {
+@keyframes over {
     from {background-image: url(photo/normal.png);}
     to {background-image:  url(photo/over.png);}
 }
+
+
+
+/* ----------------------- */
+    .obes1 {
+        width: 100%;
+        height: 100%;
+        background-image: url(photo/normal.png);
+        animation-name: obes1 ;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        
+    }
+    @keyframes obes1 {
+        0% {background-image: url(photo/normal.png);}
+        50% {background-image:  url(photo/over.png);}
+        100%{background-image:  url(photo/obes1.png);}
+    }
+
+
+    /* ----------------------- */
+    .obes2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(photo/normal.png);
+        animation-name: obes2 ;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        
+    }
+    @keyframes obes2 {
+        0% {background-image: url(photo/normal.png);}
+        50% {background-image:  url(photo/over.png);}
+        75%{background-image:  url(photo/obes1.png);}
+        100%{background-image:  url(photo/obes2.png);}
+
+    }
+    /* ------------------------ */
+    .obes3 {
+        width: 100%;
+        height: 100%;
+        background-image: url(photo/normal.png);
+        animation-name: obes3 ;
+        animation-duration: 7s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        
+    }
+    @keyframes obes3 {
+        0% {background-image: url(photo/normal.png);}
+        25% {background-image:  url(photo/over.png);}
+        50%{background-image:  url(photo/obes1.png);}
+        75%{background-image:  url(photo/obes2.png);}
+        100%{background-image:  url(photo/obes3.png);}
+
+    }
 /* end animation */
