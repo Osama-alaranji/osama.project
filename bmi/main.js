@@ -63,7 +63,7 @@ form.onsubmit = function(){
         item = "<div class='obes2'></div>";
         // end animation
           // diet
-          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+          diet = "You should follow a diet " + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
         // end diet 
     }
 
@@ -73,7 +73,7 @@ form.onsubmit = function(){
         item = "<div class='obes1'></div>";
         // end animation
           // diet
-          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+          diet = "You should follow a diet " + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
         // end diet 
     }
 
@@ -83,7 +83,7 @@ form.onsubmit = function(){
          item = '<div class="over"></div>';
         // end animation
           // diet
-          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D9%81%D8%B6%D9%84_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+          diet = "You should follow a diet " + " <a href='https://mawdoo3.com/%D8%A3%D9%81%D8%B6%D9%84_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
         // end diet 
     }
 
@@ -94,6 +94,7 @@ form.onsubmit = function(){
          item = '<div class="normal"></div>';
         // end animation
           // diet
+          diet = "You have a healthy body keep it up " + "<a href='https://mawdoo3.com/%D9%83%D9%8A%D9%81_%D8%A3%D8%AD%D8%A7%D9%81%D8%B8_%D8%B9%D9%84%D9%89_%D8%B1%D8%B4%D8%A7%D9%82%D8%AA%D9%8A'>Go</a>";
         // end diet 
     }
 
@@ -112,8 +113,8 @@ form.onsubmit = function(){
 
     //end animation
 
-    pcontent.innerHTML = "<b>weight : </b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
-+ "<br><b>bmi :</b> " + bmi ;
+    pcontent.innerHTML = "<b>Weight : </b>" + weight.value +"kg" + "<br><br> <b>Height :</b> " + height.value + "cm <br>" 
++ "<br><b>Bmi :</b> " + bmi  + "<br><br><b>Diet : </b>" +  diet ;
     weight.value = null;
     height.value = null;
     name.value = "";
