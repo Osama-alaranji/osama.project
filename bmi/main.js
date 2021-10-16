@@ -33,7 +33,7 @@ form.onsubmit = function(){
 
 
     if (bminumb < 18.5){
-        bmi = "<span style='color :rgb(255, 0, 0);'>Underweight </span>";
+        bmi = "<span style='color :rgb(119, 209, 240);'>Underweight </span>";
     }
 
     else if (bminumb >= 40 ){
