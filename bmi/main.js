@@ -19,6 +19,7 @@ let profile = document.querySelector("#profile");
 // 4_show bmi as string in profile by if statement 
 //5-animatiom :(
 //6-Add diet Suggestion
+//7-profile photo
 
 //animation 
 let basicanim = document.querySelector("#basicanim");
@@ -118,5 +119,8 @@ form.onsubmit = function(){
     weight.value = null;
     height.value = null;
     name.value = "";
+    
+    female.outerHTML = '' ;
+    male.outerHTML = '' ;
     return false;
 }
