@@ -67,7 +67,7 @@ font-size: large;
     border: 2px solid white;
     border-radius: 8px;
     width: 30%;
-    height: 500px;
+    height: 350px;
     position: relative;
     top: -340px;
     left: 69%;
@@ -114,7 +114,7 @@ font-size: 20px;
 .adddiv {
     width: 400px;
     height: 500px;
-    top : -860px;
+    top : -790px;
     left: 32%;
     display: none;  
     position: relative;
