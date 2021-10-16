@@ -141,7 +141,6 @@ let adddiv  = document.querySelector("#adddiv");
    noimg.style.display = "none";
     return false;
 }
-
 // problems 
 // 1- if condition you should order levels from largest number to the smallest number
 // 2 - radio onchange put them outside onsubmit function
