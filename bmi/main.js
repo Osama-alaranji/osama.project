@@ -17,6 +17,8 @@ let form = document.querySelector("form");
 // 2-get weight and height and put them in profile 
 // 3-calculate bminumber 
 // 4_show bmi as string in profile by if statement 
+//5-animatiom :( 
+
 
 
 
