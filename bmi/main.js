@@ -21,7 +21,7 @@ let form = document.querySelector("form");
 
 //animation 
 let basicanim = document.querySelector("#basicanim");
-let adddiv  = document.querySelector("#addiv");
+let adddiv  = document.querySelector("#adddiv");
 
 
 
@@ -39,35 +39,35 @@ form.onsubmit = function(){
     if (bminumb < 18.5){
         bmi = "<span style='color :rgb(119, 209, 240);'>Underweight </span>";
         // animation 
-        let item = "<div class='under'></div>"
+        item = "<div class='under'></div>";
         // end animation
     }
 
     else if (bminumb >= 40 ){
         bmi = "<span style='color :rgb(255, 0, 0);'>Obesity 3 </span>" ;
         // animation 
-        let item = "<div class='obes3'></div>"
+       item = "<div class='obes3'></div>";
         // end animation
     }
 
     else if (bminumb >= 35){
         bmi = "<span style='color :rgb(252, 31, 31);'>Obesity 2 </span>" ;
         // animation 
-        let item = "<div class='obes2'></div>"
+        item = "<div class='obes2'></div>";
         // end animation
     }
 
      else if( bminumb >= 30){
         bmi = "<span style='color :rgb(252, 72, 72);'>Obesity 1</span>";
         // animation 
-        let item = "<div class='obes1'></div>"
+        item = "<div class='obes1'></div>";
         // end animation
     }
 
      else if (bminumb >= 25){
         bmi = "<span style='color :rgb(250, 101, 101);'>Overweight </span>";
         // animation 
-        let item = "<div class='over'></div>"
+         item = "<div class='over'></div>";
         // end animation
     }
 
@@ -75,7 +75,7 @@ form.onsubmit = function(){
     else if( bminumb >= 18.5){
         bmi = "<span style='color :rgb(28, 230, 9);'>Normal weight</span>";
         // animation 
-        let item = "<div class='under'></div>"
+         item = "<div class='under'>rr</div>";
         // end animation
     }
 
@@ -89,7 +89,7 @@ form.onsubmit = function(){
 
     // animation 
     basicanim.style.display = "none";
-
+    adddiv.innerHTML = item;
 
     //end animation
 
