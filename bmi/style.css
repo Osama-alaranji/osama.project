@@ -89,5 +89,14 @@ left: 3px;
 }
 .content {
 margin: 19px;
-font-size: x-large;
+font-size: 20px;
+}
+.animation {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top : -840px;
+    left: 32%;
+    
+
 }
