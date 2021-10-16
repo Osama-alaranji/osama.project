@@ -8,7 +8,7 @@ let male = document.querySelector("#male");
 let female = document.querySelector("#female");
 let boldname = document.querySelector("#profilename");
 let form = document.querySelector("form");
-
+let profile = document.querySelector("#profile");
 
 
 
@@ -75,7 +75,7 @@ form.onsubmit = function(){
     else if( bminumb >= 18.5){
         bmi = "<span style='color :rgb(28, 230, 9);'>Normal weight</span>";
         // animation 
-         item = "<div class='under'></div>";
+         item = '<div class="normal">rr</div>';
         // end animation
     }
 
