@@ -17,7 +17,8 @@ let profile = document.querySelector("#profile");
 // 2-get weight and height and put them in profile 
 // 3-calculate bminumber 
 // 4_show bmi as string in profile by if statement 
-//5-animatiom :( 
+//5-animatiom :(
+//6-Add diet Suggestion
 
 //animation 
 let basicanim = document.querySelector("#basicanim");
@@ -28,6 +29,7 @@ let adddiv  = document.querySelector("#adddiv");
 
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
+    // 
     // bmi beginning
     let  heightv = height.value;
     let  weightv = weight.value ;
