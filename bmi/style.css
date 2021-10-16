@@ -108,6 +108,7 @@ left: 3px;
 margin: 19px;
 font-size: 20px;
 }
+/* animation */
 .basicanim {
     width: 400px;
     height: 500px;
@@ -116,3 +117,17 @@ font-size: 20px;
     left: 32%;
     background-image: url(photo/normal.png);
 }
+.adddiv {
+    width: 400px;
+    height: 500px;
+    top : -860px;
+    left: 32%;
+    
+    position: relative;
+    display: none;
+    
+
+
+    
+}
+/* end animation */
