@@ -21,6 +21,7 @@ let profile = document.querySelector("#profile");
 //6-Add diet Suggestion
 //7-profile photo
 
+
 //animation 
 let basicanim = document.querySelector("#basicanim");
 let adddiv  = document.querySelector("#adddiv");
@@ -28,7 +29,17 @@ let adddiv  = document.querySelector("#adddiv");
 
 
 
-form.onsubmit = function(){
+    form.onsubmit = function(){
+  
+
+    // profile photo 
+    female.onchange = function(){
+        img = femaleimg;
+    }
+    male.onchange = function(){
+        img = femaleimg ;
+    }
+    // profile photo end
     boldname.innerHTML = "welcome" + " " + name.value ;
     // bmi beginning
     let  heightv = height.value;
