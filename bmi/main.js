@@ -88,8 +88,8 @@ form.onsubmit = function(){
 
 
     // animation 
-    basicanim.style.display = "none";
     adddiv.style.display = "block";
+    profile.style.display = "block";
     adddiv.innerHTML = item ;
 
     //end animation
