@@ -9,8 +9,7 @@ let female = document.querySelector("#female");
 let boldname = document.querySelector("#profilename");
 let form = document.querySelector("form");
 let profile = document.querySelector("#profile");
-let femaleimg = document.querySelector("#femalephoto");
-let maleimg = document.querySelector("#malephoto");
+
 
 
 
@@ -23,6 +22,20 @@ let maleimg = document.querySelector("#malephoto");
 //7-profile photo
 
 
+// profile photo 
+let femaleimg = document.querySelector("#femalephoto");
+let maleimg = document.querySelector("#malephoto");
+female.onchange = function(){
+  img = femaleimg;
+  noimg = maleimg;
+
+}
+male.onchange = function(){
+  img = maleimg ;
+  noimg = femaleimg;
+ 
+}
+// profile photo end
 //animation 
 let basicanim = document.querySelector("#basicanim");
 let adddiv  = document.querySelector("#adddiv");
@@ -33,14 +46,7 @@ let adddiv  = document.querySelector("#adddiv");
     form.onsubmit = function(){
   
 
-    // profile photo 
-    female.onchange = function(){
-        img = femaleimg;
-    }
-    male.onchange = function(){
-        img = femaleimg ;
-    }
-    // profile photo end
+    
     boldname.innerHTML = "welcome" + " " + name.value ;
     // bmi beginning
     let  heightv = height.value;
@@ -131,8 +137,7 @@ let adddiv  = document.querySelector("#adddiv");
     weight.value = null;
     height.value = null;
     name.value = "";
-    
-    female.outerHTML = '' ;
-    male.outerHTML = '' ;
+   img.style.display = "block";
+   noimg.style.display = "none";
     return false;
 }
