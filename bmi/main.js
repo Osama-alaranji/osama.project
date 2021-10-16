@@ -75,7 +75,7 @@ form.onsubmit = function(){
     else if( bminumb >= 18.5){
         bmi = "<span style='color :rgb(28, 230, 9);'>Normal weight</span>";
         // animation 
-         item = "<div class='under'>rr</div>";
+         item = "<div class='under'></div>";
         // end animation
     }
 
@@ -89,7 +89,8 @@ form.onsubmit = function(){
 
     // animation 
     basicanim.style.display = "none";
-    adddiv.innerHTML = item;
+    adddiv.style.display = "block";
+    adddiv.innerHTML = item ;
 
     //end animation
 
