@@ -96,5 +96,8 @@ form.onsubmit = function(){
 
     pcontent.innerHTML = "<b>weight : </b>" + weight.value +"kg" + "<br><br> <b>height :</b> " + height.value + "cm <br>" 
 + "<br><b>bmi :</b> " + bmi ;
+    weight.value = null;
+    height.value = null;
+    name.value = "";
     return false;
 }
