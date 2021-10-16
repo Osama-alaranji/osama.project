@@ -137,5 +137,18 @@ font-size: 20px;
     from {background-image: url(photo/normal.png);}
     to {background-image:  url(photo/under.png);}
 }
-
+.over {
+    width: 100%;
+    height: 100%;
+    background-image: url(photo/normal.png);
+    animation-name: under ;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes under {
+    from {background-image: url(photo/normal.png);}
+    to {background-image:  url(photo/over.png);}
+}
 /* end animation */
