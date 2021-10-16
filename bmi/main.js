@@ -67,7 +67,7 @@ form.onsubmit = function(){
      else if (bminumb >= 25){
         bmi = "<span style='color :rgb(250, 101, 101);'>Overweight </span>";
         // animation 
-         item = "<div class='over'></div>";
+         item = '<div class="over"></div>';
         // end animation
     }
 
