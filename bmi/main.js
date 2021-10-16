@@ -29,7 +29,6 @@ let adddiv  = document.querySelector("#adddiv");
 
 form.onsubmit = function(){
     boldname.innerHTML = "welcome" + " " + name.value ;
-    // 
     // bmi beginning
     let  heightv = height.value;
     let  weightv = weight.value ;
@@ -43,6 +42,9 @@ form.onsubmit = function(){
         // animation 
         item = "<div class='under'></div>";
         // end animation
+        // diet
+        diet = "You must follow a diet to gain weight" +  " <a href='https://mawdoo3.com/%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9_%D8%A7%D9%84%D9%88%D8%B2%D9%86_%D9%81%D9%8A_%D8%B4%D9%87%D8%B1'>Go</a>";
+        // end diet 
     }
 
     else if (bminumb >= 40 ){
@@ -50,6 +52,9 @@ form.onsubmit = function(){
         // animation 
        item = "<div class='obes3'></div>";
         // end animation
+          // diet
+          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+        // end diet 
     }
 
     else if (bminumb >= 35){
@@ -57,6 +62,9 @@ form.onsubmit = function(){
         // animation 
         item = "<div class='obes2'></div>";
         // end animation
+          // diet
+          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+        // end diet 
     }
 
      else if( bminumb >= 30){
@@ -64,6 +72,9 @@ form.onsubmit = function(){
         // animation 
         item = "<div class='obes1'></div>";
         // end animation
+          // diet
+          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D8%B3%D8%B1%D8%B9_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+        // end diet 
     }
 
      else if (bminumb >= 25){
@@ -71,6 +82,9 @@ form.onsubmit = function(){
         // animation 
          item = '<div class="over"></div>';
         // end animation
+          // diet
+          diet = "You should follow a diet" + " <a href='https://mawdoo3.com/%D8%A3%D9%81%D8%B6%D9%84_%D9%86%D8%B8%D8%A7%D9%85_%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A_%D9%84%D8%AA%D8%AE%D9%81%D9%8A%D9%81_%D8%A7%D9%84%D9%88%D8%B2%D9%86'>Go</a>";
+        // end diet 
     }
 
    
@@ -79,6 +93,8 @@ form.onsubmit = function(){
         // animation 
          item = '<div class="normal"></div>';
         // end animation
+          // diet
+        // end diet 
     }
 
    
