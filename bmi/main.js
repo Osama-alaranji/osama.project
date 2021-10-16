@@ -19,7 +19,9 @@ let form = document.querySelector("form");
 // 4_show bmi as string in profile by if statement 
 //5-animatiom :( 
 
-
+//animation 
+let basicanim = document.querySelector("#basicanim");
+let adddiv  = document.querySelector("#addiv");
 
 
 
