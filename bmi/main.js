@@ -134,10 +134,14 @@ let adddiv  = document.querySelector("#adddiv");
 
     pcontent.innerHTML = "<b>Weight : </b>" + weight.value +"kg" + "<br><br> <b>Height :</b> " + height.value + "cm <br>" 
 + "<br><b>Bmi :</b> " + bmi  + "<br><br><b>Diet : </b>" +  diet ;
-    weight.value = null;
-    height.value = null;
-    name.value = "";
+    // weight.value = null;
+    // height.value = null;
+    // name.value = "";
    img.style.display = "block";
    noimg.style.display = "none";
     return false;
 }
+
+// problems 
+// 1- if condition you should order levels from largest number to the smallest number
+// 2 - radio onchange put them outside onsubmit function
