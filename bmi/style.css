@@ -219,3 +219,18 @@ font-size: 20px;
         background-image: url(photo/normal.png);
     }
 /* end animation */
+/* diet advice */
+a {
+  
+    color : white ;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* diet advice end */
