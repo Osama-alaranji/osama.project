@@ -10,10 +10,22 @@ let two = document.querySelector("#two");
 
 fetch("https://api.exchangerate.host/latest").then((getandconvert) => 
  getandconvert.json()).then((final) => {
- 
+
+
+
+//  calling names
     let names = Object.keys(final.rates);
-  
-  
+    // end calling names 
+
+    
+    // put names in select //mission 2
+    let select = "<select>";
+ for (let i = 0 ; i < 170 ; i++ ){
+    select += "<option value='"   + names[i] + "'>"  + names[i] + "</option>";
+
+ }
+  select += "</select>";
+ // end mission 2
 
  
  
