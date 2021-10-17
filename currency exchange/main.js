@@ -7,6 +7,7 @@ let two = document.querySelector("#two");
 
 // 1- calling names 
 // 2- create for loop for put names in select in html page
+// 3- get values from inputs and link it with currencys
 fetch("https://api.exchangerate.host/latest").then((getandconvert) => 
  getandconvert.json()).then((final) => {
 
