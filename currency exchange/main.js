@@ -1,5 +1,6 @@
 let exchange = document.querySelector("h1");
-
+let one = document.querySelector("#one");
+let two = document.querySelector("#two");
 
 
 
