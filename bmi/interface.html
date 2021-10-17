@@ -9,17 +9,61 @@
 .captcha {
     border: none;
     border-bottom: white 1px solid;  
+    background: transparent;   
+margin: 22px;  }
+     .sub {
+         background: transparent;
+         border-radius: 8px;
+color: white;
+margin: 22px;
+border : white 1px solid ;
      }
+     body{
+         background-color: rgb(46, 44, 44);
+         color: white;
+     }
+     .captcha::placeholder {
+         font-size: large; 
+         color: rgb(199, 199, 199);    }
+         a {
+background-color: red;
+border-radius: 8px;
+text-decoration: none;
+color: white;
+display: block;
+text-align: center;
+width: 55px;
+height:22px;
+         }
+         p {
+             margin-left: 22px;
+         }
 </style>
 </head>
 <body>
-
+<p> 14 + 9 = ?</p>
 <form>
     <input type="text" id="captcha"  class="captcha" placeholder="enter captcha">
-     <input type="submit" id="sub" class="captcha">
+     <input type="submit" id="sub" class="sub" value="I am not robot ">
 </form>
 
 
-    <script></script>
+    <script>
+
+        let form = document.querySelector("form");
+        let sub = document.querySelector("#sub");
+        let captcha = document.querySelector("#captcha");
+        let body = document.querySelector("body");
+        form.onsubmit = function () {
+
+            if(captcha.value = 23){
+                body.innerHTML = "<a href='index.html'>go</a>"
+            }
+            else{
+                body.innerHTML = "robot get out";
+            }
+        }
+
+    </script>
 </body>
 </html>
