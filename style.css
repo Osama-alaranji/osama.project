@@ -97,6 +97,18 @@ display: inline-block;
                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                         margin-left: 5px;
                         font-size: large;}
+                        .ex {display: inline-block;
+                            width: 200px;
+                            height: 35px;
+                            text-decoration: none ;
+                            background-color: rgb(253, 109, 145);
+                            text-align: center;
+                            border: none ;
+                            border-radius: 10px;
+                            color: rgb(255, 226, 226);
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            margin-left: 5px;
+                            font-size: large;}
 header {
 
     width: 100%;
