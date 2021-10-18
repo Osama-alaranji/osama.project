@@ -34,7 +34,7 @@ let names = Object.keys(final.rates);
 
 
     
-    let selecti = "<select  id='selectii'>";
+    let selecti = "<select  id='selectii'><option value='0'>none</option>";
  for (let i = 0 ; i < 170 ; i++ ){
     selecti += "<option value='"   + names[i] + "' >"  + names[i] + "</option>";
 
@@ -45,7 +45,7 @@ let names = Object.keys(final.rates);
 
 
 // start for
-  let selecto = "<select id='selectoo'>";
+  let selecto = "<select id='selectoo'><option value='0'>none</option>";
   for (let o = 0 ; o < 170 ; o++ ){
     selecto += "<option value='"   + names[o] + "' >"  + names[o] + "</option>";
 
