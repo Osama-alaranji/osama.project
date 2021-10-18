@@ -26,11 +26,27 @@ select {
     padding-bottom: 2px;
     color : black ;
     position: relative;
-    left: 40px;
+    left: 120px;
+    top: -30px;
     
    
 }
 body{
-    background-image: url(backg.jpg);
+    background-image: url(backg.png);
     background-size: 100%;
+ ;
+}
+.container {
+    text-align: center;
+    position: relative;
+    
+    border: rgb(45, 255, 45) 3px solid;
+    border-radius: 10px;
+    width: 320px;
+    height: 400px;
+  left: 440px;
+  top: 80px;
+    display: flex;
+    align-items: center;align-content: center;
+    box-shadow: rgb(238, 27, 27) 7px;
 }
