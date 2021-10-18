@@ -30,3 +30,7 @@ select {
     
    
 }
+body{
+    background-image: url(backg.jpg);
+    background-size: 100%;
+}
